@@ -5,7 +5,7 @@
 }
 
 body {
-  margin-top: 100px;
+  margin: 100px 0;
 }
 
 h1,
@@ -88,11 +88,21 @@ p {
 }
 
 @media (max-width: 576px) {
+  h1 {
+    font-size: 40px;
+  }
+
   h2 {
-    font-size: 32px;
+    font-size: 30px;
     text-align: center;
   }
   p {
     text-align: center;
+  }
+
+  .primary-link {
+    display: block;
+    text-align: center;
+    margin: 0 40px;
   }
 }
